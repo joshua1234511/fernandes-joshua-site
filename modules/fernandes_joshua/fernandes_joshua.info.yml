@@ -1,0 +1,6 @@
+name: Fernandes Joshua Custom Module
+description: Custom functionality and hooks added.
+package: Joshua Fernandes
+
+type: module
+core: 8.x
