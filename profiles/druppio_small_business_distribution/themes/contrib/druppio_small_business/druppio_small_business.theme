@@ -74,13 +74,13 @@ function druppio_small_business_preprocess_html(&$vars) {
       unset($vars['page']['#attached']['library'][$index]);
     }
 
-    $vars['cached_js'][] = array(
-      '#type' => 'html_tag',
-      '#tag' => 'script',
-      '#attributes' => array(
-        'src' => $url,
-      ),
-    );
+    // $vars['cached_js'][] = array(
+    //   '#type' => 'html_tag',
+    //   '#tag' => 'script',
+    //   '#attributes' => array(
+    //     'src' => $url,
+    //   ),
+    // );
   }
 }
 

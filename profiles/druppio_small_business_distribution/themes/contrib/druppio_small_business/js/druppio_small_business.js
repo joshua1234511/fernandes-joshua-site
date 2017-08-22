@@ -148,7 +148,7 @@ if ($(".path-frontpage").length > 0) {
 
 })(jQuery);
 
-jQuery(document).ready(function($){
+(function ($) {
   /* =================================
   SKILL SECTION
   =================================== */
@@ -243,4 +243,4 @@ jQuery(document).ready(function($){
      }
   });
     }
-});
+})(jQuery);
