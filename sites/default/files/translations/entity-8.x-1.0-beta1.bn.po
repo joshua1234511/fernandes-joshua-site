@@ -1,0 +1,20 @@
+# Bengali translation of Entity API (8.x-1.0-beta1)
+# Copyright (c) 2017 by the Bengali translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Entity API (8.x-1.0-beta1)\n"
+"POT-Creation-Date: 2017-09-20 08:46+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Bengali\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Delete"
+msgstr "মুছে ফেল"
+msgid "Operations"
+msgstr "কার্যাবলী"
+msgid "Create new revision"
+msgstr "একটি নতুন রিভিশন তৈরি করুন"

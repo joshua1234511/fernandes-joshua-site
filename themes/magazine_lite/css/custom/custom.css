@@ -2,7 +2,7 @@ body {
   text-align: center;
 }
 
-.path-frontpage canvas {
+canvas {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11,5 +11,6 @@ body {
   left: 0;
   bottom: 0;
   z-index: 99;
+  display: block;
 }
 

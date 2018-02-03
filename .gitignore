@@ -1,2 +1,7 @@
 /sites/default/settings.php
-/fernandes_joshua.sql
+/.htaccess
+/sites/default/files/php/twig
+/sites/default/files/js
+/sites/default/files/css
+/sites/default/files/tmp
+/.gitignore

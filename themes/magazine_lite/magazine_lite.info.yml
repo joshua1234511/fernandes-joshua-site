@@ -59,8 +59,8 @@ regions:
   footer: 'Subfooter Second'
   hidden_blocks_collection: 'Hidden blocks collection'
 
-# Information added by Drupal.org packaging script on 2017-06-19
-version: '8.x-1.0'
+# Information added by Drupal.org packaging script on 2017-12-18
+version: '8.x-1.1'
 core: '8.x'
 project: 'magazine_lite'
-datestamp: 1497865445
+datestamp: 1513575189

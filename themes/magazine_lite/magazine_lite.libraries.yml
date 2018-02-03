@@ -30,7 +30,6 @@ global-styling:
       css/base/elements.css: { weight: 1 }
       css/base/layout.css: {}
       css/base/typography.css: {}
-      css/custom/custom.css: {}
     component:
       css/components/alert.css: {}
       css/components/accordion.css: {}
@@ -62,8 +61,6 @@ global-styling:
       css/components/menu.css: {}
       css/components/username.css: {}
       css/components/views.css: {}
-  js:
-    js/custom/custom.js: {}
 
 to-top:
   version: VERSION
@@ -135,6 +132,8 @@ waypoints-sticky:
     js/waypoints/shortcuts/sticky.min.js: {}
   dependencies:
     - core/jquery
+    - core/jquery.once
+    - core/drupal
 
 waypoints-inview:
   version: 4.0.1
@@ -149,6 +148,8 @@ waypoints-animations-init:
     js/init/waypoints-animations-init.js: {}
   dependencies:
     - magazine_lite/waypoints
+    - core/jquery.once
+    - core/drupal
 
 magnific-popup:
   version: 1.1.0
@@ -166,6 +167,8 @@ magnific-popup-field-image-init:
     js/init/magnific-popup-field-image-init.js: {}
   dependencies:
     - magazine_lite/magnific-popup
+    - core/jquery.once
+    - core/drupal
 
 flexslider:
   version: 2.6.1
@@ -195,6 +198,8 @@ flexslider-in-page-init:
   dependencies:
     - magazine_lite/flexslider-global
     - core/drupalSettings
+    - core/jquery.once
+    - core/drupal
 
 owl-carousel:
   version: 2.2.1
@@ -342,7 +347,6 @@ tooltip:
   js:
     js/init/tooltip-init.js: {}
   dependencies:
-    - magazine_lite/bootstrap
     - core/jquery
 
 count-to:
@@ -359,6 +363,8 @@ count-to-init:
   dependencies:
     - magazine_lite/count-to
     - magazine_lite/waypoints
+    - core/jquery.once
+    - core/drupal
 
 node:
   version: VERSION

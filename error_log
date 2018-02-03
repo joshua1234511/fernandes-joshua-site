@@ -1,0 +1,188 @@
+[20-Nov-2017 04:53:39 America/Chicago] PDOException: SQLSTATE[08004] [1040] Too many connections in /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(149): PDO->__construct('mysql:host=loca...', 'fernande_user', 'L?LEBalk8n3{', Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(376): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(513): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(868): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(466): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(656): Drupal\Core\DrupalKernel->boot()
+#13 /home/fernande/public_html/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[23-Nov-2017 12:02:20 America/Chicago] PHP Fatal error:  Cannot redeclare fernandesjoshua_get_site_mode() (previously declared in /home/fernande/public_html/sites/default/settings.php:800) in /home/fernande/public_html/sites/default/settings.php on line 807
+[23-Nov-2017 12:02:21 America/Chicago] PHP Fatal error:  Cannot redeclare fernandesjoshua_get_site_mode() (previously declared in /home/fernande/public_html/sites/default/settings.php:800) in /home/fernande/public_html/sites/default/settings.php on line 807
+[29-Nov-2017 09:27:31 America/Chicago] PDOException: SQLSTATE[08004] [1040] Too many connections in /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(149): PDO->__construct('mysql:host=loca...', 'fernande_user', 'L?LEBalk8n3{', Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(376): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(513): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(868): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(466): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(656): Drupal\Core\DrupalKernel->boot()
+#13 /home/fernande/public_html/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2017 09:27:31 America/Chicago] PDOException: SQLSTATE[08004] [1040] Too many connections in /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(149): PDO->__construct('mysql:host=loca...', 'fernande_user', 'L?LEBalk8n3{', Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(376): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(513): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(868): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(466): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(656): Drupal\Core\DrupalKernel->boot()
+#13 /home/fernande/public_html/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2017 09:27:32 America/Chicago] PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(149): PDO->__construct('mysql:host=loca...', 'fernande_user', 'L?LEBalk8n3{', Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(376): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(513): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(868): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(466): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(656): Drupal\Core\DrupalKernel->boot()
+#13 /home/fernande/public_html/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2017 10:00:37 America/Chicago] PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(149): PDO->__construct('mysql:host=loca...', 'fernande_user', 'L?LEBalk8n3{', Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(376): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(513): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(868): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(466): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(656): Drupal\Core\DrupalKernel->boot()
+#13 /home/fernande/public_html/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2017 10:54:57 America/Chicago] Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: CREATE TABLE {cache_config} (
+`cid` VARCHAR(255) BINARY CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL DEFAULT '' COMMENT 'Primary Key: Unique cache ID.', 
+`data` LONGBLOB NULL DEFAULT NULL COMMENT 'A collection of data to cache.', 
+`expire` INT NOT NULL DEFAULT 0 COMMENT 'A Unix timestamp indicating when the cache entry should expire, or -1 for never.', 
+`created` DECIMAL(14, 3) NOT NULL DEFAULT 0 COMMENT 'A timestamp with millisecond precision indicating when the cache entry was created.', 
+`serialized` SMALLINT NOT NULL DEFAULT 0 COMMENT 'A flag to indicate whether content is serialized (1) or not (0).', 
+`tags` LONGTEXT NULL DEFAULT NULL COMMENT 'Space-separated list of cache tags for this entry.', 
+`checksum` VARCHAR(255) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT 'The tag invalidation checksum when this entry was saved.', 
+PRIMARY KEY (`cid`), 
+INDEX `expire` (`expire`), 
+INDEX `created` (`created`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8mb4 COMMENT 'Storage for the cache API.'; Array
+(
+)
+ in /home/fernande/public_html/core/lib/Drupal/Core/Config/CachedStorage.php on line 105 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php(650): Drupal\Core\Database\Connection->handleQueryException(Object(PDOException), 'CREATE TABLE {c...', Array, Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(87): Drupal\Core\Database\Connection->query('CREATE TABLE {c...', Array, Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Schema.php(598): Drupal\Core\Database\Driver\mysql\Connection->query('CREATE TABLE {c...')
+#3 /home/fernande/public_html/core/lib/Drupal/Core/Cache/DatabaseBackend.php(405): Drupal\Core\Database\Schema->createTable('cache_config', Array)
+#4 /home/fernande/public_html/core/lib/Drupal/Core/Cache/DatabaseBackend.php(196): Drupal\Core\Cache\DatabaseBackend->ensureBinExists()
+#5 /home/fernande/public_html/core/lib/Drupal/Core/Config/CachedStorage.php(105): Drupal\Core\Cache\DatabaseBackend->setMultiple(Array)
+#6 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(165): Drupal\Core\Config\CachedStorage->readMultiple(Array)
+#7 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(104): Drupal\Core\Config\ConfigFactory->doLoadMultiple(Array, true)
+#8 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(89): Drupal\Core\Config\ConfigFactory->doGet('automated_cron....')
+#9 /home/fernande/public_html/core/modules/automated_cron/src/EventSubscriber/AutomatedCron.php(50): Drupal\Core\Config\ConfigFactory->get('automated_cron....')
+#10 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(270): Drupal\automated_cron\EventSubscriber\AutomatedCron->__construct(Object(Drupal\Core\ProxyClass\Cron), Object(Drupal\Core\Config\ConfigFactory), Object(Drupal\Core\State\State))
+#11 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\Container->createService(Array, 'automated_cron....')
+#12 /home/fernande/public_html/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(105): Drupal\Component\DependencyInjection\Container->get('automated_cron....')
+#13 /home/fernande/public_html/vendor/symfony/http-kernel/HttpKernel.php(88): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.terminat...', Object(Symfony\Component\HttpKernel\Event\PostResponseEvent))
+#14 /home/fernande/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php(32): Symfony\Component\HttpKernel\HttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#15 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(635): Stack\StackedHttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#16 /home/fernande/public_html/index.php(22): Drupal\Core\DrupalKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#17 {main}
+[17-Dec-2017 02:43:01 America/Chicago] Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: CREATE TABLE {cache_config} (
+`cid` VARCHAR(255) BINARY CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL DEFAULT '' COMMENT 'Primary Key: Unique cache ID.', 
+`data` LONGBLOB NULL DEFAULT NULL COMMENT 'A collection of data to cache.', 
+`expire` INT NOT NULL DEFAULT 0 COMMENT 'A Unix timestamp indicating when the cache entry should expire, or -1 for never.', 
+`created` DECIMAL(14, 3) NOT NULL DEFAULT 0 COMMENT 'A timestamp with millisecond precision indicating when the cache entry was created.', 
+`serialized` SMALLINT NOT NULL DEFAULT 0 COMMENT 'A flag to indicate whether content is serialized (1) or not (0).', 
+`tags` LONGTEXT NULL DEFAULT NULL COMMENT 'Space-separated list of cache tags for this entry.', 
+`checksum` VARCHAR(255) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT 'The tag invalidation checksum when this entry was saved.', 
+PRIMARY KEY (`cid`), 
+INDEX `expire` (`expire`), 
+INDEX `created` (`created`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8mb4 COMMENT 'Storage for the cache API.'; Array
+(
+)
+ in /home/fernande/public_html/core/lib/Drupal/Core/Config/CachedStorage.php on line 105 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php(650): Drupal\Core\Database\Connection->handleQueryException(Object(PDOException), 'CREATE TABLE {c...', Array, Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(87): Drupal\Core\Database\Connection->query('CREATE TABLE {c...', Array, Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Schema.php(598): Drupal\Core\Database\Driver\mysql\Connection->query('CREATE TABLE {c...')
+#3 /home/fernande/public_html/core/lib/Drupal/Core/Cache/DatabaseBackend.php(405): Drupal\Core\Database\Schema->createTable('cache_config', Array)
+#4 /home/fernande/public_html/core/lib/Drupal/Core/Cache/DatabaseBackend.php(196): Drupal\Core\Cache\DatabaseBackend->ensureBinExists()
+#5 /home/fernande/public_html/core/lib/Drupal/Core/Config/CachedStorage.php(105): Drupal\Core\Cache\DatabaseBackend->setMultiple(Array)
+#6 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(165): Drupal\Core\Config\CachedStorage->readMultiple(Array)
+#7 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(104): Drupal\Core\Config\ConfigFactory->doLoadMultiple(Array, true)
+#8 /home/fernande/public_html/core/lib/Drupal/Core/Config/ConfigFactory.php(89): Drupal\Core\Config\ConfigFactory->doGet('automated_cron....')
+#9 /home/fernande/public_html/core/modules/automated_cron/src/EventSubscriber/AutomatedCron.php(50): Drupal\Core\Config\ConfigFactory->get('automated_cron....')
+#10 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(270): Drupal\automated_cron\EventSubscriber\AutomatedCron->__construct(Object(Drupal\Core\ProxyClass\Cron), Object(Drupal\Core\Config\ConfigFactory), Object(Drupal\Core\State\State))
+#11 /home/fernande/public_html/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\Container->createService(Array, 'automated_cron....')
+#12 /home/fernande/public_html/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(105): Drupal\Component\DependencyInjection\Container->get('automated_cron....')
+#13 /home/fernande/public_html/vendor/symfony/http-kernel/HttpKernel.php(88): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.terminat...', Object(Symfony\Component\HttpKernel\Event\PostResponseEvent))
+#14 /home/fernande/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php(32): Symfony\Component\HttpKernel\HttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#15 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(635): Stack\StackedHttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#16 /home/fernande/public_html/index.php(22): Drupal\Core\DrupalKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\RedirectResponse))
+#17 {main}
+[24-Dec-2017 21:12:38 Asia/Kolkata] Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: SELECT 1 AS expression
+FROM 
+{key_value} key_value
+WHERE (name = :db_condition_placeholder_0) AND (collection = :db_condition_placeholder_1); Array
+(
+    [:db_condition_placeholder_0] => system.cron_last
+    [:db_condition_placeholder_1] => state
+)
+ in /home/fernande/public_html/core/lib/Drupal/Core/State/State.php on line 71 #0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php(650): Drupal\Core\Database\Connection->handleQueryException(Object(PDOException), 'SELECT 1 AS exp...', Array, Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(87): Drupal\Core\Database\Connection->query('SELECT 1 AS exp...', Array, Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Query/Select.php(508): Drupal\Core\Database\Driver\mysql\Connection->query('SELECT 1 AS exp...', Array, Array)
+#3 /home/fernande/public_html/core/lib/Drupal/Core/Database/Query/Merge.php(365): Drupal\Core\Database\Query\Select->execute()
+#4 /home/fernande/public_html/core/lib/Drupal/Core/KeyValueStore/DatabaseStorage.php(116): Drupal\Core\Database\Query\Merge->execute()
+#5 /home/fernande/public_html/core/lib/Drupal/Core/State/State.php(71): Drupal\Core\KeyValueStore\DatabaseStorage->set('system.cron_las...', 1514129851)
+#6 /home/fernande/public_html/core/lib/Drupal/Core/Cron.php(146): Drupal\Core\State\State->set('system.cron_las...', 1514129851)
+#7 /home/fernande/public_html/core/lib/Drupal/Core/Cron.php(123): Drupal\Core\Cron->setCronLastTime()
+#8 /home/fernande/public_html/core/lib/Drupal/Core/ProxyClass/Cron.php(75): Drupal\Core\Cron->run()
+#9 /home/fernande/public_html/core/modules/automated_cron/src/EventSubscriber/AutomatedCron.php(65): Drupal\Core\ProxyClass\Cron->run()
+#10 /home/fernande/public_html/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(108): Drupal\automated_cron\EventSubscriber\AutomatedCron->onTerminate(Object(Symfony\Component\HttpKernel\Event\PostResponseEvent), 'kernel.terminat...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#11 /home/fernande/public_html/vendor/symfony/http-kernel/HttpKernel.php(88): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.terminat...', Object(Symfony\Component\HttpKernel\Event\PostResponseEvent))
+#12 /home/fernande/public_html/vendor/stack/builder/src/Stack/StackedHttpKernel.php(32): Symfony\Component\HttpKernel\HttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\Response))
+#13 /home/fernande/public_html/core/lib/Drupal/Core/DrupalKernel.php(635): Stack\StackedHttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\Response))
+#14 /home/fernande/public_html/index.php(22): Drupal\Core\DrupalKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\Response))
+#15 {main}
+[24-Dec-2017 21:12:38 Asia/Kolkata] exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in /home/fernande/public_html/core/lib/Drupal/Core/Database/Statement.php:59
+Stack trace:
+#0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Statement.php(59): PDOStatement->execute(Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php(625): Drupal\Core\Database\Statement->execute(Array, Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(87): Drupal\Core\Database\Connection->query('DELETE FROM {se...', Array, Array)
+#3 /home/fernande/public_html/core/lib/Drupal/Core/Database/Query/Delete.php(55): Drupal\Core\Database\Driver\mysql\Connection->query('DELETE FROM {se...', Array, Array)
+#4 /home/fernande/public_html/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#5 [internal function]: Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#6 /home/fernande/public_html/core/includes/bootstrap.inc(1025): call_user_func_array(Array, Array)
+#7 [internal function]: _drupal_shutdown_function()
+#8 {main}
+
+Next exception 'Drupal\Core\Database\DatabaseExceptionWrapper' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: DELETE FROM {semaphore} 
+WHERE value = :db_condition_placeholder_0; ' in /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php:686
+Stack trace:
+#0 /home/fernande/public_html/core/lib/Drupal/Core/Database/Connection.php(650): Drupal\Core\Database\Connection->handleQueryException(Object(PDOException), 'DELETE FROM {se...', Array, Array)
+#1 /home/fernande/public_html/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(87): Drupal\Core\Database\Connection->query('DELETE FROM {se...', Array, Array)
+#2 /home/fernande/public_html/core/lib/Drupal/Core/Database/Query/Delete.php(55): Drupal\Core\Database\Driver\mysql\Connection->query('DELETE FROM {se...', Array, Array)
+#3 /home/fernande/public_html/core/lib/Drupal/Core/Lock/DatabaseLockBackend.php(170): Drupal\Core\Database\Query\Delete->execute()
+#4 [internal function]: Drupal\Core\Lock\DatabaseLockBackend->releaseAll()
+#5 /home/fernande/public_html/core/includes/bootstrap.inc(1025): call_user_func_array(Array, Array)
+#6 [internal function]: _drupal_shutdown_function()
+#7 {main}
