@@ -226,8 +226,8 @@ function magazine_lite_preprocess_page(&$variables) {
   $header_top_highlighted_second = $variables['page']['header_top_highlighted_second'];
 
   if($header_top_highlighted_first && $header_top_highlighted_second) {
-    $variables['header_top_highlighted_first_grid_class'] = 'col-sm-8';
-    $variables['header_top_highlighted_second_grid_class'] = 'col-sm-4';
+    $variables['header_top_highlighted_first_grid_class'] = 'col-sm-6';
+    $variables['header_top_highlighted_second_grid_class'] = 'col-sm-6';
   } elseif ($header_top_highlighted_first || $header_top_highlighted_second) {
     $variables['header_top_highlighted_first_grid_class'] = 'col-md-12';
     $variables['header_top_highlighted_second_grid_class'] = 'col-md-12';
