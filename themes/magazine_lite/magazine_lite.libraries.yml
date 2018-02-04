@@ -518,6 +518,7 @@ local-stylesheets:
     component:
       css/components/local-components.css: { weight: 100 }
     theme:
+      css/theme/color-gray.css: { weight: 140 }
       css/theme/local-theme.css: { weight: 150 }
 
 #####################
