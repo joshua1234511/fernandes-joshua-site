@@ -239,7 +239,7 @@ function rdf_comment_storage_load($comments) {
     // The current function is a storage level hook, so avoid to bubble
     // bubbleable metadata, because it can be outside of a render context.
     $comment->rdf_data['entity_uri'] = $entity->toUrl()->toString(TRUE)->getGeneratedUrl();
-    if ($comment->hasParentComment()) {
+    if (!empty($comment->getParentComment()) && !empty($comment->getParentComment()->url())) {
       $comment->rdf_data['pid_uri'] = $comment->getParentComment()->url();
     }
   }

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/fernandesjoshua/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://www.fernandesjoshua.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>http://www.fernandesjoshua.com/blog</loc></url>
 <url><loc>http://www.fernandesjoshua.com/contact</loc></url>
-<url><loc>http://www.fernandesjoshua.com/blog/migration-drupal-6-7-keeping-user-password-same</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
-<url><loc>http://www.fernandesjoshua.com/blog/software-developer-vs-solutions-developer</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
-<url><loc>http://www.fernandesjoshua.com/blog/sorting-language-code</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
-<url><loc>http://www.fernandesjoshua.com/blog/what-drupal-taught-me</loc><lastmod>2017-11-17T20:12Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
-<url><loc>http://www.fernandesjoshua.com/tag/developer</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/drupal</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/migration</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/password</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/php</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/software</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/solutions</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/sort</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://www.fernandesjoshua.com/tag/team-work</loc><lastmod>2017-11-17T20:12Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/blog/migration-drupal-6-7-keeping-user-password-same</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/blog/software-developer-vs-solutions-developer</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/blog/sorting-language-code</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/blog/what-drupal-taught-me</loc><lastmod>2017-11-17T20:12Z</lastmod><changefreq>yearly</changefreq><priority>0.9</priority></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/developer</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/drupal</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/migration</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/password</loc><lastmod>2017-11-17T20:05Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/php</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/software</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/solutions</loc><lastmod>2017-11-17T20:13Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/sort</loc><lastmod>2017-11-17T20:10Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.fernandesjoshua.com/fernandesjoshua/tag/team-work</loc><lastmod>2017-11-17T20:12Z</lastmod><changefreq>yearly</changefreq></url>
 </urlset>
